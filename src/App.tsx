@@ -1,8 +1,22 @@
-import { Heading } from "./components/Heading/Heading"
+import { Container } from "./components/Container";
+import { Heading } from "./components/Heading"
 
+import { TimerIcon } from 'lucide-react';
 
 export const App = () => {
     return (
-        <Heading />
+        <>
+            <Container>
+                <Heading>
+                    LOGO
+                </Heading>
+            </Container>
+            <Container>
+                <Heading>
+                    menu
+                </Heading>
+            </Container>
+        </>
+
     )
 }
