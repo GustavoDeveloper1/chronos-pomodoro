@@ -3,6 +3,7 @@ import { Heading } from "./components/Heading"
 
 
 import { Logo } from "./components/Logo";
+import { Menu } from "./components/Menu";
 
 export const App = () => {
     return (
@@ -14,7 +15,7 @@ export const App = () => {
             </Container>
             <Container>
                 <Heading>
-                    menu
+                    <Menu/>
                 </Heading>
             </Container>
         </>
