@@ -1,14 +1,15 @@
 import { Container } from "./components/Container";
 import { Heading } from "./components/Heading"
 
-import { TimerIcon } from 'lucide-react';
+
+import { Logo } from "./components/Logo";
 
 export const App = () => {
     return (
         <>
             <Container>
                 <Heading>
-                    LOGO
+                    <Logo />
                 </Heading>
             </Container>
             <Container>
