@@ -40,11 +40,11 @@ export const App = () => {
                     <div className="formRow">
                         <DefaultButton icon={<PlayCircleIcon />} />
                     </div>
-                  
+
                 </form>
             </Container>
             <Container>
-                <Footer/>
+                <Footer />
             </Container>
         </>
 
