@@ -7,6 +7,8 @@ import { DefaultInput } from "./components/DefaultInput";
 
 import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
+import { DefaultButton } from "./components/DefaultButton";
+import { PlayCircleIcon } from "lucide-react";
 
 export const App = () => {
     return (
@@ -32,7 +34,10 @@ export const App = () => {
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div className="formRow">
-                        <Cycles/>
+                        <Cycles />
+                    </div>
+                    <div className="formRow">
+                        <DefaultButton icon={<PlayCircleIcon />} />
                     </div>
                     <div className="formRow">
                         <button>Enviar</button>
